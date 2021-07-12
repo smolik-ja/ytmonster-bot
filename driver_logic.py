@@ -1,10 +1,17 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
 
 class DriverLogic:
 
-    def __init__(self, driver):
-        self.driver = driver
+    def __init__(self):
+        options = webdriver.ChromeOptions()
+        # hides WebDriver window
+        # options.headless = True
+        self.driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
+
+    def closeWebDriver(self):
+        self.driver.close()
 
     def ytmLogin(self, ytmName: str, ytmPass: str):
         self.driver.get("https://www.ytmonster.net/login")
