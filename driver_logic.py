@@ -17,5 +17,3 @@ class DriverLogic:
         loginPass.clear()
         loginPass.send_keys(ytmPass)
         loginPass.send_keys(Keys.RETURN)
-
-        print(self.driver.current_url)
