@@ -5,7 +5,10 @@ driverLogic = DriverLogic()
 # driverLogic.ytmLogin("wryzep", "heslo123456")
 
 
-driverLogic.ytmLogin()
+# driverLogic.ytmLogin()
 # driverLogic.openYtm()
+
+driverLogic.ytLogin()
+# driverLogic.openYt()
 
 # driverLogic.closeWebDriver()

@@ -10,4 +10,6 @@ class Constants():
     def __init__(self):
         self.ytmLoginLink: str = "https://www.ytmonster.net/login"
         self.ytmDashboardLink: str = "https://www.ytmonster.net/dashboard"
-        self.cookiesName: str = "cookies.pkl"
+        self.ytLoginLink: str = "https://www.youtube.com/account"
+        self.ytmCookies: str = "ytm_cookies.pkl"
+        self.ytCookies: str = "yt_cookies.pkl"
