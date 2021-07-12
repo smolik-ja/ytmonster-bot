@@ -2,6 +2,10 @@ from driver_logic import DriverLogic
 
 driverLogic = DriverLogic()
 
-driverLogic.ytmLogin("name", "pass")
+# driverLogic.ytmLogin("wryzep", "heslo123456")
 
-driverLogic.closeWebDriver()
+
+driverLogic.ytmLogin()
+# driverLogic.openYtm()
+
+# driverLogic.closeWebDriver()
